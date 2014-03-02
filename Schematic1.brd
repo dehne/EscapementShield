@@ -18,7 +18,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -758,12 +758,18 @@
 <rectangle x1="12.1285" y1="12.6365" x2="12.5095" y2="12.7635" layer="121"/>
 <rectangle x1="13.0175" y1="12.6365" x2="13.2715" y2="12.7635" layer="121"/>
 <rectangle x1="12.1285" y1="12.7635" x2="12.5095" y2="12.8905" layer="121"/>
-<text x="36.576" y="5.588" size="1.27" layer="122" font="vector" rot="MR0">Electronic Escapement
+<text x="36.576" y="5.588" size="1.27" layer="122" rot="MR0">Electronic Escapement
 Rev D</text>
 <text x="24.257" y="56.515" size="1.016" layer="21">1</text>
 <text x="33.782" y="56.642" size="1.016" layer="21">3</text>
 <text x="13.97" y="19.558" size="1.27" layer="21" align="bottom-center">Clock Drive</text>
 <text x="38.1" y="29.845" size="1.27" layer="21" align="bottom-center">Coil Drive</text>
+<text x="20.447" y="41.656" size="1.016" layer="121" align="bottom-center">RGB LED</text>
+<text x="19.177" y="53.086" size="1.016" layer="121" align="bottom-center">Coil</text>
+<text x="39.497" y="53.086" size="1.016" layer="121" align="bottom-center">Clock</text>
+<text x="29.21" y="53.086" size="1.016" layer="121" align="bottom-center">IR Rec</text>
+<text x="10.16" y="47.752" size="1.016" layer="121" align="bottom-center">Cold
+Start</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
